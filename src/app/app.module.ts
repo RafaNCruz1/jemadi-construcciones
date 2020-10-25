@@ -16,7 +16,9 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { MapComponent } from './shared/map/map.component';
 import { AboutComponent } from './pages/about/about.component';
-
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { TrabajosComponent } from './pages/trabajos/trabajos.component';
+import { MatChipsModule } from '@angular/material/chips'
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,8 @@ import { AboutComponent } from './pages/about/about.component';
     PortfolioComponent,
     ServiciosComponent,
     MapComponent,
-    AboutComponent
+    AboutComponent,
+    TrabajosComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,10 @@ import { AboutComponent } from './pages/about/about.component';
     MatButtonModule,
     MatInputModule,
     FontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCarouselModule,
+    MatChipsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

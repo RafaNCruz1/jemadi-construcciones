@@ -1,0 +1,106 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <mat-card>
+        <mat-card-header>
+          <h5 class="text-center">Pista de Atletismo Yautepec</h5>
+        </mat-card-header>
+        <div mat-card-image>
+          <mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="accent" maxWidth="auto"
+            proportion="65" slides="5" [loop]="true" [hideArrows]="true" [hideIndicators]="true" [useKeyboard]="true"
+            [useMouseWheel]="false" orientation="ltr">
+            <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slidespista; let i = index" [image]="slide.image"
+              overlayColor="#00000040" [hideOverlay]="false"></mat-carousel-slide>
+          </mat-carousel>
+        </div>
+        <mat-card-content>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nisi sunt excepturi voluptas
+            voluptatem illo officiis? Distinctio corrupti dolorem numquam?</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <mat-chip-list aria-label="Fish selection">
+            <mat-chip>Pavimentacion</mat-chip>
+            <mat-chip>2015</mat-chip>
+          </mat-chip-list>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-md-6">
+      <mat-card>
+        <mat-card-header>
+          <h5 class="text-center">Gasolinera México-Acapulco</h5>
+        </mat-card-header>
+        <div mat-card-image>
+          <mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="accent" maxWidth="auto"
+            proportion="65" slides="5" [loop]="true" [hideArrows]="true" [hideIndicators]="true" [useKeyboard]="true"
+            [useMouseWheel]="false" orientation="ltr">
+            <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slidesgas; let i = index" [image]="slide.image"
+              overlayColor="#00000040" [hideOverlay]="false"></mat-carousel-slide>
+          </mat-carousel>
+        </div>
+        <mat-card-content>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nisi sunt excepturi voluptas
+            voluptatem illo officiis? Distinctio corrupti dolorem numquam?</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <mat-chip-list aria-label="Fish selection">
+            <mat-chip>Pavimentacion</mat-chip>
+            <mat-chip>2015</mat-chip>
+          </mat-chip-list>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <mat-card>
+        <mat-card-header>
+          <h5 class="text-center">Drenaje Tlayacapan</h5>
+        </mat-card-header>
+        <div mat-card-image>
+          <mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="accent" maxWidth="auto"
+            proportion="65" slides="5" [loop]="true" [hideArrows]="true" [hideIndicators]="true" [useKeyboard]="true"
+            [useMouseWheel]="false" orientation="ltr">
+            <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slidesdrentlaya; let i = index"
+              [image]="slide.image" overlayColor="#00000040" [hideOverlay]="false"></mat-carousel-slide>
+          </mat-carousel>
+        </div>
+        <mat-card-content>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nisi sunt excepturi voluptas
+            voluptatem illo officiis? Distinctio corrupti dolorem numquam?</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <mat-chip-list aria-label="Fish selection">
+            <mat-chip>Drenaje</mat-chip>
+            <mat-chip>2015</mat-chip>
+          </mat-chip-list>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="col-md-6">
+      <mat-card>
+        <mat-card-header>
+          <h5 class="text-center">Drenaje Yautepec</h5>
+        </mat-card-header>
+        <div mat-card-image>
+          <mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="accent" maxWidth="auto"
+            proportion="65" slides="5" [loop]="true" [hideArrows]="true" [hideIndicators]="true" [useKeyboard]="true"
+            [useMouseWheel]="false" orientation="ltr">
+            <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slidesdrentyaute; let i = index"
+              [image]="slide.image" overlayColor="#00000040" [hideOverlay]="false"></mat-carousel-slide>
+          </mat-carousel>
+        </div>
+        <mat-card-content>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nisi sunt excepturi voluptas
+            voluptatem illo officiis? Distinctio corrupti dolorem numquam?</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <mat-chip-list aria-label="Fish selection">
+            <mat-chip>Drenaje</mat-chip>
+            <mat-chip>2015</mat-chip>
+          </mat-chip-list>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
