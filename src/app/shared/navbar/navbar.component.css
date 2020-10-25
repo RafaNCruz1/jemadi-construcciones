@@ -1,0 +1,14 @@
+a{
+    font-family: 'Roboto';
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+a:hover{
+    color: #000 !important;
+    transform: scale(1.2);
+}

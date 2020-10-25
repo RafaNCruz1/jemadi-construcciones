@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="container">
+    <h3 class="text-center mt-5 mb-5">CONTÁCTANOS</h3>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="container d-flex justify-content-md-center">
+        <img src="https://img.icons8.com/cotton/64/000000/whatsapp--v4.png" alt="telefono">
+      </div>
+      <div class="container mt-4">
+        <p class="text-center">Telefono: (777) 365-09-09</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="container d-flex justify-content-md-center">
+        <img src="https://img.icons8.com/cotton/64/000000/important-mail.png" alt="correo">
+      </div>
+      <div class="container mt-4">
+        <p class="text-center">Email: jemadicontacto@gmail.com</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="container d-flex justify-content-md-center">
+        <img src="https://img.icons8.com/fluent/48/000000/map-pin.png" alt="">
+      </div>
+      <div class="container mt-4">
+        <p class="text-center">Calle 3 hermanos 11A, Colonia Aeropuerto, Temixco, Morelos, Mexico, CP. 62590 </p>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col">
+      <app-map></app-map>
+    </div>
+    <div class="col-4">
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="inputState">¿En que podemos ayudarte?</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Pavimentacion</option>
+                  <option >Excavaciones</option>
+                  <option >Drenaje</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Nombre</label>
+                <input type="text" class="form-control" id="inputEmail4" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Apellidos</label>
+                <input type="text" class="form-control" id="inputPassword4" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Empresa</label>
+              <input type="text" class="form-control" id="inputAddress">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Correo electrónico</label>
+                <input type="mail" class="form-control" id="inputCity" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputCity">Telefono</label>
+                <input type="mail" class="form-control" id="inputCity" required>
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="inputCity">Comentarios</label>
+                <textarea class="form-control" name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Contactar</button>
+          </form>
+    </div>
+  </div>
+</div>
