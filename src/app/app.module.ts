@@ -19,6 +19,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { TrabajosComponent } from './pages/trabajos/trabajos.component';
 import { MatChipsModule } from '@angular/material/chips'
+import { MatIconModule } from '@angular/material/icon'
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +44,8 @@ import { MatChipsModule } from '@angular/material/chips'
     FontAwesomeModule,
     AppRoutingModule,
     MatCarouselModule,
-    MatChipsModule
+    MatChipsModule,
+    MatIconModule
     
   ],
   providers: [],

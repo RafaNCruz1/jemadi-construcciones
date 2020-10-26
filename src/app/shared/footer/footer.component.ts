@@ -15,4 +15,8 @@ export class FooterComponent implements OnInit {
     
   }
 
+  scrollTop (){
+    window.scroll(0,0);
+  }
+
 }

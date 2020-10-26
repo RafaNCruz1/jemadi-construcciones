@@ -12,3 +12,7 @@ a:hover{
     color: #000 !important;
     transform: scale(1.2);
 }
+
+.bg-yellow{
+    background-color: rgba(255, 193, 7, 0.8);
+}

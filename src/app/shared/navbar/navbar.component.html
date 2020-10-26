@@ -1,31 +1,31 @@
-<nav class="navbar navbar-light bg-warning">
-    <div class="container">
-        <div class="col-12 col-md d-flex">
-            <span class="navbar-brand mb-0 h1">JEMADI <span class="text-white">Construcciones</span></span>
-        </div>
-        <div class="col-12 col-md d-flex justify-content-md-end">
-            <a [routerLink]="['/contacto']" class="btn nav-link">Contacto</a>
-        </div>
-    </div>
-</nav>
-<div class="bg-warning">
-    <div class="container">
-        <div class="col-12 col-md d-flex justify-content-md-center">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/home']" >Inicio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/servicios']">Servicios</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" [routerLink]="['/portafolio']">Portafolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/nosotros']">Nosotros</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+<div class="bg-yellow">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <span class="navbar-brand mb-0 h1">JEMADI <span class="text-white">Construcciones</span></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" (click)="isShown = !isShown" [attr.aria-expanded]="isShown" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{ 'show': isShown }">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/servicios']" routerLinkActive="router-link-active">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/portafolio']" routerLinkActive="router-link-active">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/nosotros']" routerLinkActive="router-link-active">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/contacto']" routerLinkActive="router-link-active">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

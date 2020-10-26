@@ -1,4 +1,4 @@
-<mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="yellow" maxWidth="auto" proportion="25"
+<mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="primary" maxWidth="auto" proportion="45"
   slides="5" [loop]="true" [hideArrows]="false" [hideIndicators]="true" [useKeyboard]="true" [useMouseWheel]="false"
   orientation="ltr">
   <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slides; let i = index" [image]="slide.image"
@@ -15,7 +15,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 mt-2">
         <p class="text-justify">Nuestros trabajos hablan por si solos, nos caracterizamos por hacer trabajos de calidad
           satifaciendo las necesidades de nuestros clientes
           a precios accesibles manteniendo la relacion en precio/calidad.
@@ -36,7 +36,7 @@
         </div>
 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mt-2">
         <mat-carousel timings="250ms ease-in" [autoplay]="true" interval="5000" color="accent" maxWidth="auto"
           proportion="65" slides="5" [loop]="true" [hideArrows]="true" [hideIndicators]="true" [useKeyboard]="true"
           [useMouseWheel]="false" orientation="ltr">
